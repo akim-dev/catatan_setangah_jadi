@@ -1,0 +1,26 @@
+  <div className="note-app__body">
+        <h2>Buat Catatan</h2>
+        <Form addNote={addNote} />
+        {/* <div className="notes-list">
+          <h4>Active Task</h4>
+          {taskText}
+          <div className="note-item__content">{tampilSaja}</div>
+          <h4>Archived</h4>
+          {taskTextArchived}
+          <hr />
+          <div className="note-item__content">{tidakTampil}</div>
+        </div> */}
+        <div className="notes-list">
+          {/* <h4 className="notes-list__empty">{taskText}</h4> */}
+          <div className="note-item">
+            {/* <h4 className="notes-list__empty">{taskText}</h4>
+            <div className="note-item__content">{tidakTampil}</div> */}
+            {tampilSaja}
+          </div>
+          <div className="note-item">
+            {/* <h4 className="notes-list__empty">{taskTextArchived}</h4>
+            <div className="note-item__content">{tampilSaja}</div> */}
+          </div>
+          {/* {tampilSaja} */}
+        </div>
+      </div>
